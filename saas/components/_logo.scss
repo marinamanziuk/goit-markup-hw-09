@@ -1,0 +1,21 @@
+ /* About logo */
+ .nav {display: flex;
+ }
+ .nav-item {margin-left: 50px;}
+ .nav-item:first-child {margin-left: 0;}
+.nav-logo {padding-top: 24px;
+padding-bottom: 25px;
+display: flex;
+}
+
+.nav-logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+
+
+}

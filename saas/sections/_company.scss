@@ -1,0 +1,125 @@
+/* About our company */
+.team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--secondary-background-color);
+    @media screen and (min-width: 1200px) {
+      padding: 94px 0;
+    }
+  }
+  .team-list {
+    margin-bottom:30px;
+    margin-right: 30px;
+    @media screen and (min-width:768px) {
+      display: flex;
+      flex-wrap: wrap;
+      }
+  @media screen and (max-width: 1400px) {
+      text-align: center;
+    }
+  }
+  
+  .company {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    margin-bottom: 50px;
+   
+  }
+  
+  .card-set {
+    width: 100%;
+    background: var(--main-background-color);
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    @media screen and(min-width:768px) {
+      flex-basis: calc((100% - 30px) / 2);
+  }
+  
+  @media screen and(min-width:1200px) {
+      flex-basis: calc((100% - 90px) /4 );
+  }
+  @media screen and (max-width: 767px) {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  }
+  }
+  
+  .company-list {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
+  
+  .company-features {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .company-item {
+    margin-top: 10px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+  }
+  /* About company-icons */
+  .icon-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .icon-item {
+    margin-left: 10px;
+  }
+  .icon-item:first-child {
+    margin-left: 0px;
+  }
+  
+  .company-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--icon-background-color);
+    background-color: var(--main-background-color);
+  
+    opacity: 1;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-cubic);
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
+  }
+  
+  .card-set {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .icons {
+    fill: currentColor;
+  }
+  .company-soc-link:hover,
+  .icons .company-soc-link:focus .icons {
+    color: var(--main-background-color);
+  }
+  
