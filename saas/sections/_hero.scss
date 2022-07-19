@@ -18,6 +18,13 @@
   margin-left: auto;
   @media screen and (min-width: 1200px) {
     padding: 200px 0;
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/header-bdg-img-1px.jpg);
+  
   }
 }
 .hero-title {
@@ -39,6 +46,14 @@
   @media screen and (min-width:1200px){
     font-size: 44px;
     line-height: 1.36;
+
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/header-bdg-img-2px.jpg);
+  
     
   }
 }

@@ -71,10 +71,10 @@
     /* About contacts */
     .contacts {
     display: flex;
-    align-items: center;
-    margin-left: auto;
+    
     @media screen and (max-width: 767px) {display:none;}
-    @media screen and (min-width: 768px) {}}
+    @media screen and (min-width: 768px) {display: flex;}
+}
      .contact-link {
      font-style: normal;
      font-size: 14px;
@@ -108,13 +108,7 @@
         &:hover,
         &:focus {color:var(--accent-color);}
        }
-    .contact-link {
-        display: flex;
-        padding-top: 32px;
-        padding-bottom: 32px; }
+    
 
     .contact-item +.contact-item {margin-left: 50px;}  
-    .contact-mobile-link {
-        display: flex;
-        padding-top: 32px;
-        padding-bottom: 32px; }
+   

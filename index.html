@@ -23,11 +23,14 @@
           
           
           <div class="container">
-          <div class="menu"mob-menu>
-            <button type="button" class="menu-btn" menu-open-btn>
-            <svg class="menu-icon" width="50" height="50">
-               <use href="./images/icons.svg#icon-close_40px"></use>
+          <div class="menu" mob-menu>
+            <button type="button" class="menu-btn" class="close-open-btn">
+            <svg class="menu-icon-open" width="50" height="50">
                <use href="./images/icons.svg#icon-menu_40px"></use>
+            </svg>
+            <svg class="menu-icon-close" width="50" height="50"></svg>>
+               <use href="./images/icons.svg#icon-close_40px"></use>
+               
             </svg>
             </button>
             <div class="mob-menu_top">
@@ -157,20 +160,37 @@
             <ul class="benefits-list list"> 
              <li class="benefits-img">
                
-               <img src="./images/img1.jpg" alt="Людина працює над створенням проекту" width="370" >
+               <img 
+               src="./images/img1.jpg" 
+               srcset="
+                 ./images/benefits-img1-1px.jpg,
+                 ./images/benefits-img1-2px.jpg,
+                 "
+               alt="Людина працює над створенням проекту" width="370" >
                <p class="benefits-description">
                   Десктопные приложения 
                </p>
                
             </li>
              <li class="benefits-img">
-               <img src="./images/img2.jpg" alt="Людина перевіряє схему на комп'ютері" width="370">
+               <img
+               src="./images/img2.jpg" 
+               srcset="
+               ./images/benefits-img2-1px.jpg,
+               ./images/benefits-img2-2px.jpg,
+      
+                alt="Людина перевіряє схему на комп'ютері" width="370">
                <p class="benefits-description">
                   Мобильные приложения 
                </p>
             </li>
              <li class="benefits-img">
-               <img src="./images/img3.jpg" alt="Людина підбирає колір з палітри кольорів" width="370">
+               <img
+               src="./images/img3.jpg" 
+               srcset="
+               ./images/benefits-img3-1px.jpg,
+               ./images/benefits-img3-2px.jpg,
+                alt="Людина підбирає колір з палітри кольорів" width="370">
                <p class="benefits-description">
                   Дизайнерские решения
                </p>
@@ -184,7 +204,13 @@
                     <div class="container">
                      <h2 class="company">Наша команда</h2>
             <ul class="team-list list">
-             <li class="card-set"><img src="./images/img4.jpg" alt="Игорь Демьяненкo" width="100%">
+             <li class="card-set">
+               <img 
+               srcset="
+               ./images/company-img1-1px.jpg,
+               ./images/company-img1-2px.jpg,
+
+               src="./images/img4.jpg" alt="Игорь Демьяненкo" width="100%">
                    <div class="company-features">
                     <h3 class="company-list">Игорь Демьяненко</h3>
                     <p class="company-item">Product Designer</p>
@@ -222,7 +248,12 @@
                    </ul>
                   </div>
                
-           <li class="card-set"><img src="./images/img5.jpg" alt="Ольга Репина" width="100%">
+           <li class="card-set">
+            <img 
+            srcset="
+               ./images/company-img2-1px.jpg,
+               ./images/company-img2-2px.jpg,
+            src="./images/img5.jpg" alt="Ольга Репина" width="100%">
                     <div class="company-features">
                     <h3 class="company-list">Ольга Репина</h3>
                     <p class="company-item">Frontend Developer</p>
@@ -260,7 +291,12 @@
                        </ul> 
                     </div>
                
-                 <li class="card-set"><img src="./images/img6.jpg" alt="Николай Тарасов"  width="100%">
+                 <li class="card-set">
+                  <img
+                  srcset="
+               ./images/company-img3-1px.jpg,
+               ./images/company-img3-2px.jpg,
+                  src="./images/img6.jpg" alt="Николай Тарасов"  width="100%">
                     <div class="company-features">
                     <h3 class="company-list">Николай Тарасов</h3>
                     <p class="company-item">Marketing</p>
@@ -300,7 +336,12 @@
                      </div>
                 
                 
-                <li class="card-set"><img src="./images/img7.jpg" alt="Михаил Ермаков" width="100%">
+                <li class="card-set">
+                  <img 
+                  srcset="
+               ./images/company-img4-1px.jpg,
+               ./images/company-img4-2px.jpg,
+                  src="./images/img7.jpg" alt="Михаил Ермаков" width="100%">
                     <div class="company-features">
                  <h3 class="company-list">Михаил Ермаков</h3>
                  <p class="company-item">UI Designer</p>

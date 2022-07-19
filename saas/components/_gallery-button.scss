@@ -1,14 +1,11 @@
 /*Portfolio buttons */
 
 .button-list {display: flex;
- justify-content: center;
- margin-bottom: 50px;
- @media screen and (max-width: 1199px) {
-    display: none;
-  }
- 
-
-}
+  flex-wrap: wrap;
+  gap:8px;
+  row-gap: 15px;
+  margin-bottom: 50px;
+ }
  .button-item {margin-right: 8px;}
  .button-item:last-child {margin-right: 0;}
  
