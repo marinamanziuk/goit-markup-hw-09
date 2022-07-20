@@ -23,7 +23,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/header-bdg-img-1px.jpg);
+    url(../images/img17.jpg);
   
   }
 }
@@ -32,6 +32,7 @@
   margin-bottom: var(--typical-margin);
   font-family: inherit;
   font-style: normal;
+  width: 360px;
   font-size: 26px;
   line-height: calc(42/26);
   font-weight: 900;
@@ -54,6 +55,12 @@
     ),
     url(../images/header-bdg-img-2px.jpg);
   
+    
+  }
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+    max-width: 1600px;
+    height: 600px;
     
   }
 }

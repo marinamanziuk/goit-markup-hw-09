@@ -19,19 +19,34 @@
 .footer-wrap {
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
   }
-  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: flex-start;
+    
+  }
 
 }
 
 
 .footer-link {
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    margin-right: 70px;
+    text-align: left;
+    
+  }
 }
 .footer-soc-icons {
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+    text-align: left;
+    
+  }
 }
 
 .adress {
@@ -159,6 +174,7 @@
 .footer-form-title {
   font-family: "Roboto";
   font-style: normal;
+  text-align: left;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -174,12 +190,15 @@
     flex-direction: column;
     align-items: center;
   }
+  @media screen and (min-width: 1200px) {
+   flex-direction: inherit; 
+   align-items: baseline;
+   
+  }
 }
 .footer-field {
   margin-left: auto;
-  @media screen and (min-width: 1200px) {
-    
-  }
+  
 }
 .footer-form-icon {
   position: absolute;
@@ -225,6 +244,12 @@
   @media screen and(min-width:480px) {
     width: 450px;
   }
+  @media screen and (min-width: 1200px) {
+    
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: 358px;
+   }
 }
 
 .footer-label {
@@ -237,4 +262,8 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-right: 16px;
+}
+.footer .container {
+  display: flex;
+  align-items:baseline;
 }
